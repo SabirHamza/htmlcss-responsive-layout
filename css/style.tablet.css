@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+
+    .container.small{
+        width: 100%;
+    }
+    
+    .linkList{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .mainCard{
+        flex-direction: column;
+    }
+
+    .mainCard > div{
+        width: 100%;
+    }
+}

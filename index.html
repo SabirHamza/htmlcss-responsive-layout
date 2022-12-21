@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.tablet.css">
+    <link rel="stylesheet" href="./css/style.mobile.css">
 </head>
 <body>
 
@@ -17,6 +19,9 @@
                 <img src="./img/logo.png" alt="logo">
             </div>
             <div>
+                <div class="menu">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </div>
                 <ul class="linkList dflex">
                     <li>
                         <a href="#">Planning</a>
@@ -41,14 +46,14 @@
     <main>
         <section>
             <div class="container first dflex">
-                <div class="mainCard dflex">
+                <div class="mainCard demo dflex">
                     <div>
                         <h4>Get a demo aplication</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, repellat quis. In assumenda quidem hic perspiciatis sequi quod autem?</p>
                         <button><span><i class="fa-brands fa-apple"></i></span>Apple Store</button>
                     </div>
                     <div class="textcenter">
-                        <img src="./img/phone.png" alt="phone">
+                        <img class="imgPhone" src="./img/phone.png" alt="phone">
                     </div>
                 </div>
                 <div class="card textcenter">
@@ -70,6 +75,25 @@
                     <span><i class="fa-solid fa-bullhorn"></i></span>
                     <h4>Branding</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia provident obcaecati doloribus, ea voluptatum ipsa omnis commodi temporibus ut.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container small">
+                <div class="mainCard dflex">
+                    <div class="planning">
+                        <img src="./img/planning1.png" alt="planning">
+                        <h3>Strategic Plan</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet dolorum ad nesciunt incidunt quis assumenda illo consequuntur, sapiente alias.</p>
+                    </div>
+                    <div class="planning">
+                        <img src="./img/planning2.png" alt="planning">
+                        <h4>App Development</h4>
+                        <p>
+                            <em>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio exercitationem beatae quis corrupti nostrum a.</em>
+                        </p>
+                        <span></span>
+                    </div>
                 </div>
             </div>
         </section>

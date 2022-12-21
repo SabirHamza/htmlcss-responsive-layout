@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-header{
-    height: 70px;
-    background-color: cornflowerblue;
-}
-
 li{
     list-style: none;
 }
@@ -18,18 +13,28 @@ a{
     color: inherit;
 }
 
-.container{
-    width: 1000px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
 .dflex{
     display: flex;
 }
 
 .textcenter{
     text-align: center;
+}
+
+header{
+    height: 70px;
+    background-color: cornflowerblue;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.menu{
+    display: none;
+    color: white;
 }
 
 .head.dflex{
@@ -50,7 +55,7 @@ a{
     gap: 1rem;
 }
 
-.mainCard{
+.demo{
     width: calc(((100% - 0.5rem) / 3) * 2);
 }
 
@@ -62,6 +67,16 @@ a{
     width: 50%;
 }
 
-.mainCard img{
+.imgPhone{
     width: 50%;
 }
+
+.container.small{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.planning > img{
+    width: 100%;
+}
+
