@@ -2,4 +2,21 @@
     .card, .demo{
         width: 100%;
     }
+
+    .cardPurple{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .person{
+        width: 100%;
+    }
+
+    .card.benefit{
+        width: 100%;
+    }
+
+    .about{
+        flex-wrap: wrap;
+    }
 }

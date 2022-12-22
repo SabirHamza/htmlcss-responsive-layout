@@ -27,7 +27,7 @@ header{
 }
 
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -78,5 +78,26 @@ header{
 
 .planning > img{
     width: 100%;
+}
+
+.testimonials{
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardPurple{
+    align-items: center;
+}
+
+.person > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.benefits{
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 

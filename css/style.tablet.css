@@ -22,4 +22,8 @@
     .mainCard > div{
         width: 100%;
     }
+
+    .card.benefit{
+        width: calc(50% - 1rem);
+    }
 }
