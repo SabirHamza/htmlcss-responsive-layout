@@ -136,3 +136,18 @@ header{
     gap: 5rem;
 }
 
+.container.foot{
+    max-width: 700px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.container.foot > p{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.black{
+    background-color: black;
+}
+
