@@ -8,11 +8,6 @@
 
 /* UTILS */
 
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
 .clearfix::after {
 	content: '';
 	clear: both;
@@ -221,4 +216,22 @@
 
 .ml5 {
 	margin-left: var(--space-xl);
+}
+
+/* Font-size */
+
+.f2{
+    font-size: 2rem;
+}
+
+.f3{
+    font-size: 3rem;
+}
+
+.f4{
+    font-size: 4rem;
+}
+
+.f5{
+    font-size: 5rem;
 }
